@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Registracija - PC Plus+</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/transparent%20logo.png">
+    <link href="css/moj_stil.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="page-header" ><a href="index.html">
+        <img src="images/transparent%20logo.png" style="width: 200px;padding: 0px;margin: 0px">
+        <img src="images/cooltext246825189887498.png" style="width: 500px;padding: 0px;margin: 0px">
+    </a>
+    </div>
+    <nav class="navbar navbar-form navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Glavna <span class="sr-only">(current)</span></a></li>
+                    <li><a href="testovi.html">Testovi</a></li>
+                    <li><a href="vesti.html">Vesti</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="setup.html">Setup</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" id="trazi" class="form-control" placeholder="Pretraga">
+                    </div>
+                    <button type="submit" onclick="test()" class="btn btn-default">Traži</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="registracija.html">Login | Registracija</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Podešavanja naloga</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron">
+        <div class="jumbotron asdf">
+
+            <div>
+
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#login">Login</a></li>
+                    <li><a data-toggle="tab" href="#reg">Registracija</a></li>
+                </ul>
+
+
+                <div class="tab-content">
+
+                    <div id="login" class="tab-pane fade in active">
+                        <h3>Login</h3>
+                        <hr>
+
+                        <form class="form-horizontal">
+
+                            <div class="form-group">
+                                <label for="username" class="col-sm-2 control-label">Username</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="username2" placeholder="Username" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="col-sm-2 control-label">Šifra</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="password2" placeholder="Šifra" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Zapamti me na ovom računaru
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" checked> Uloguj se anonimno
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" onclick="nePostoji()"  class="btn btn-default">Login</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+
+                    </div>
+
+                    <div id="reg" class="tab-pane fade">
+                        <h3>Registracija</h3>
+                        <hr>
+
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="ime" class="col-sm-2 control-label">Ime i prezime</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="ime" placeholder="Ime i prezime" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="col-sm-2 control-label">Username</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-sm-2 control-label">Šifra</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="password" placeholder="Šifra" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password" class="col-sm-2 control-label">Potvrdi Šifru</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="confirm_password" placeholder="Potvrdi lozinku">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Zapamti me na ovom računaru
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" checked> Šalji mi vesti na email
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" onclick="validatePassword()"  class="btn btn-default">Registruj se</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="panel-footer futer_invis"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-footer futer_real">
+        <ul class="list-inline">
+            <li><b>Pratite nas:</b></li>
+            <li><a href="https://www.facebook.com/PC-Plus-1512221969039636/?ref=aymt_homepage_panel"><img class="ikonica" src="images/facebook.png"> Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCh4aNBdHN5fQu9wS_BETTYQ?view_as=subscriber?&ab_channel=PCPlus%2B" ><img class="ikonica" src="images/Youtube.png"> Youtube kanal </a></li>
+            <li><a href="https://twitter.com/pc_plus_plus?lang=sr"><img class="ikonica" src="images/twitter.png"> Twitter </a></li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    <script>
+        var user = document.getElementById("username2");
+        function nePostoji() {
+            user.setCustomValidity("Korisnik ne postoji");
+        }
+        function redirect() {
+            ;
+        }
+
+        var password = document.getElementById("password");
+        var confirm_password = document.getElementById("confirm_password");
+        function validatePassword(){
+            console.log(password.value);
+            console.log(confirm_password.value);
+            if(password.value != confirm_password.value) {
+                confirm_password.setCustomValidity("Passwords Don't Match");
+            } else {
+                confirm_password.setCustomValidity('');
+                alert("Uspešno ste se registovali\nSada se možete ulogovati na vaš account");
+            }
+        }
+        //password.onchange = validatePassword;
+        //confirm_password.onkeyup = validatePassword;
+    </script>
+<script src="js/moja%20skripta.js"></script>
+</body>
+</html>

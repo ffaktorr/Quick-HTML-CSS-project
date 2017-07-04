@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test: AMD Ryzen 7 1800X</title>
+    <link rel="icon" href="../images/transparent%20logo.png">
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <link href="../css/moj_stil.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+
+    <div class="page-header"><a href="index.html">
+        <img src="../images/transparent%20logo.png" style="width: 200px;padding: 0px;margin: 0px">
+        <img src="../images/cooltext246825189887498.png" style="width: 500px;padding: 0px;margin: 0px">
+    </a></div>
+
+    <nav class="navbar navbar-form navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Glavna <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="../testovi.html">Testovi</a></li>
+                    <li><a href="../vesti.html">Vesti</a></li>
+                    <li><a href="../setup.html">Setup</a></li>
+                    <li><a href="../video.html">Video</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" id="trazi" class="form-control" placeholder="Pretraga">
+                    </div>
+                    <button type="submit" onclick="test()" class="btn btn-default">Traži</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/registracija.html">Login | Registracija</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Podešavanja naloga</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container glavni">
+        <h2>Test: AMD Ryzen 7 1800X</h2>
+        <h6>Datum : 8.7.2017 <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 16:45</h6><hr><div class="col-md-8">
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#uvod">Uvod</a></li>
+                <li><a data-toggle="tab" href="#spec">Specifikacije</a></li>
+                <li><a data-toggle="tab" href="#over">Overclock</a></li>
+                <li><a data-toggle="tab" href="#cine">Cinebench</a></li>
+                <li><a data-toggle="tab" href="#enc">Enkripicja</a></li>
+                <li><a data-toggle="tab" href="#zak">Zaključak</a></li>
+            </ul>
+
+
+            <div class="tab-content">
+
+                <div id="uvod" class="tab-pane fade in active">
+                    <h3>Prvi pogled</h3>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModal" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_001.jpg">
+                    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_001.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa2" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_002.jpg">
+                    <div id="myModa2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_002.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa4" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_004.jpg">
+                    <div id="myModa4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_004.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="clearfix"></div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa5" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_005.jpg">
+                    <div id="myModa5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_005.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa6" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_013.jpg">
+                    <div id="myModa6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_013.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa3" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_015.jpg">
+                    <div id="myModa3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/uvod_amd_ryzen_7_1800x_015.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <p>
+                        Dugo smo čekali da AMD predstavi novi procesor, ali tom čekanju je konačno došao kraj.
+                        Deluje kao da je previše vremena prošlo, ali izgleda da je kompanija uspela da nadmaši
+                        sva očekivanja. Nova arhitektura nosi naziv Summit Ridge i u kombinaciji sa novim i optimizovanim
+                        14-nanometarskim proizvodnim procesom, AMD je uspeo da se vrati u igru na najbolji mogući način.
+                        Sve počinje sa jednim procesorom - Ryzen 7 1800X.
+                    </p>
+                    <p>
+                        AMD će započeti Ryzen seriju procesora sa tri modela - Ryzen 7 1800X, 1700X i 1700.
+                        Svi procesori poseduju osam fizičkih, odnosno 16 logičkih jezgara. Nakon njih možemo
+                        da očekujemo modele sa 6 i 4 jezgra, a oni će pripadati Ryzen 5 i 3 seriji. Dakle,
+                        imaćemo Ryzen 7, Ryzen 5 i Ryzen 3 seriju. Zvuči poznato, zar ne? Na slici ispod možete da
+                        primetite da AMD veoma ambiciozno pozicionira svoje modele u pogledu performansi. Ryzen 7
+                        1800X koji smo dobili na test zapravo predstavlja rivala Intel Core i7 6900K po dvostruko manjoj
+                        ceni i sa TDP-om od 95 W. Impresivno.
+                    </p>
+                    <p>
+                        Što se ostalih modela tiče, pored prva tri modela koja će biti dostupna od početka,
+                        ostale možemo da očekujemo u drugom i trećem kvartalu ove godine. Za sada su potvrđeni
+                        pripadnici Ryzen 5 serije, dok za ostale procesore postoje mnoga nagađanja, mada smo sasvim sigurni
+                        da će AMD predstaviti veliki broj modela u dolazećim mesecima.
+                    </p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>Core/Thread</th>
+                                <th>L3 Keš</th>
+                                <th>TDP</th>
+                                <th>Bazna frekvencija</th>
+                                <th>Turbo frekvencija</th>
+                                <th>Otključan množilac</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><b>AMD Ryzen 7 1800X</b></td>
+                                <td>8/16</td>
+                                <td>16 MB</td>
+                                <td>95 W</td>
+                                <td>3.6 GHz	</td>
+                                <td>4.0 GHz	</td>
+                                <td>DA</td>
+                            </tr>
+                            <tr>
+                                <td><b>AMD Ryzen 7 1700X</b></td>
+                                <td>8/16</td>
+                                <td>16 MB</td>
+                                <td>95 W</td>
+                                <td>3.4 GHz	</td>
+                                <td>3.8 GHz	</td>
+                                <td>DA</td>
+                            </tr>
+                            <tr>
+                                <td><b>AMD Ryzen 7 1700</b></td>
+                                <td>8/16</td>
+                                <td>16 MB</td>
+                                <td>65 W</td>
+                                <td>3.0 GHz	</td>
+                                <td>3.7 GHz	</td>
+                                <td>DA</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p>
+                        Jedan od razloga za ovako nešto je činjenica da je AMD prešao sa TSMC-ovog proizvodnog procesa
+                        od 28nm, na dvostruko sitniju Global Foundries FinFET litografiju od 14nm. Stoga, AMD je uspeo da
+                        smesti čitavih 4.9 milijardi tranzistora u Ryzen 7 1800X pritom zadržavajući TDP na svega 95 W.
+                        Sama organizacija čipa je podeljena na dva Core Complex modula od kojih svako poseduje po četiri jezgra.
+                        Konkretno, AMD je Ryzen 7 dizajnirao kao dva četvorojezgarna procesora. Stoga,
+                        tu su dva L3 keš modula od po 8 MB, kao i ukupno 4MB L2 keša.
+                    </p>
+                    <p>
+                        Velika novost je upotreba AMD Infinity Fabric sistema koji predstavlja novi način za međusobnu
+                        komunikaciju unutar čipa. Infinity Fabric će se koristiti i za buduće proizvode kao što je Vega,
+                        ali i naredne generacije AMD procesora. Jedan od bitnih benefita Infinity Fabrica je činjenica da
+                        je zbog toga SMT (Simultaneous MultiThreading) daleko bolji nego ranije i nudi kvalitetnije
+                        skaliranje od Intelovog HyperThreadinga.
+                    </p>
+                    <p>
+                        Kada imate veliki procesor sa gomilom jezgara, jasno je da postoji uvek puno prostora
+                        za optimizaciju. SenseMi je jedan od načina da se dobije maksimum iz Ryzena.
+                        Ideja je da se dobije više performansi bez potrošenog dodatnog vata. Kako?
+                        Optimizacijom jezgara i njihovog režima rada u svakom trenutku kako bi se dobio što efikasniji rad.
+                        SenseMi izvlači maksimum iz procesora u pet koraka oslanjajući se na 1000 senzora ugrađenih u sam procesor.
+                    </p>
+
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100" style="width: 14%;">
+                            1 od 7
+                        </div>
+                    </div>
+                </div>
+
+                <div id="spec" class="tab-pane fade">
+                    <h3>Specifikacije</h3>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa7" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_005_s.jpg">
+                    <div id="myModa7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_005_s.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa8" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_008_s.jpg">
+                    <div id="myModa8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_008_s.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#mymoda9" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_010_s.jpg">
+                    <div id="mymoda9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_010_s.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa10" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_013.jpg">
+                    <div id="myModa10" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_013.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img type="button" class="btn btn-link col-lg-4 col-md-4 col-sm-4" data-toggle="modal" data-target="#myModa11" class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_007_s.jpg">
+                    <div id="myModa11" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_007_s.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="clearfix"></div>
+
+                    <p>
+                        AMD Ryzen 1800X je procesor koji je najsnažniji model u ponudi za sada.
+                        Reč je o osmojezgarnom procesoru izrađenom u 14-nanometarskoj FinFET litgorafiji.
+                        Ovaj CPU poseduje 20 MB kombinovane L2 i L3 keš memorije, kao i 768 KB prvostepenog keša.
+                    </p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <h3 style="text-align: center;color: white;background-color: red">SPECIFIKACIJE</h3>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>PROIZVOĐAČ</b></td>
+                                    <td>AMD</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>MODEL</b></td>
+                                    <td>AMD RYZEN 7 1800X</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>PODNOŽJE</b></td>
+                                    <td>AM4</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>ARHITEKTURA</b></td>
+                                    <td>AMD SUMMIT RIDGE</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>PROIZVODNI PROCES</b></td>
+                                    <td> 14 nm</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>BROJ JEZGARA</b></td>
+                                    <td>8</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>BROJ THREAD-OVA</b></td>
+                                    <td>16</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>UKUPNA KEŠ MEMORIJA</b></td>
+                                    <td> 20 MB</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>NOMINALNA FREKVENCIJA</b></td>
+                                    <td> 3.6 GHZ</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>BRZINA PROCESORA [PRETRAGA]</b></td>
+                                    <td> 3.5 - 4.0 GHZ</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>TURBO FREKVENCIJA </b></td>
+                                    <td>4.1 GHz</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>MNOŽILAC</b></td>
+                                    <td> 36</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>OTKLJUČAN MNOŽILAC</b></td>
+                                    <td>DA</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>INTEGRISAN GPU</b></td>
+                                    <td>NE</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>POTROŠNJA [W]</b></td>
+                                    <td>95</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td><b>PODRŽANA MEMORIJA </b></td>
+                                    <td>DDR4 2133MHZ</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p>
+                        Interesantna je činjenica da AMD želi da Ryzen 7 1800X stavi u ring sa Intel Core
+                        i7 6900K, a pritom Ryzen poseduje TDP koji je gotovo 50% manji. Štaviše, TDP Core i7
+                        6900K iznosi 140 W, dok se Ryzen 7 1800X zadovoljava sa svega 95 W. Ovo je sjajna vest,
+                        jer jasno govori o tome koliko je optimizacija kvalitetno izvedena, posebno kada znamo
+                        da se radi o istom proizvodnom procesu.
+
+                    <p>
+                    Što se tiče frekvencija, one su naravno niže u odnosu na recimo jedan Core i7 7700K. AMD Ryzen 7
+                    1800X radi na baznoj frekvenciji od 3600 MHz što za današnje pojmove nije previsoko. Ipak, imajte
+                    u vidu da jedan Intelov 6900K radi na svega 3.2 GHz, te da je 3600 MHz veoma dobar uspeh. Posebno
+                    kada znamo da zahvaljujući XFR tehnologiji i Turbo sistemu 1800X može da dokači i 4.1 GHz - doduše
+                    ne kada se radi o konstantnom opterećenju svih jezgara istovremeno na duge staze
+                    </p>
+                    <p>
+                        Na kraju, možemo da pomenemo i sam AM4 format u kome će dolaziti novi procesori.
+                        Naime, površina samog procesora je identična, ali je broj pinova drastično povećan.
+                        Konkretno, broj pinova iznosi 1331 umesto dosadašnjih 942 koliko je imao AM3. Da bi to
+                        bilo moguće, sami pinovi su smanjeni, pa pripazite prilikom rukovanja procesorom da ih ne
+                        iskrivite, jer će njihovo ispravljanje biti nezgodnije nego do sada. Takođe, obavezno pazite da
+                        vam termalna pasta ne završi između pinova, jer je čišćenje izuzetno nepraktično.
+                    </p>
+                    <p>
+                        Sam procesor stiže bez kulera, jer AMD predviđa da će korisnici odmah po kupovini
+                        ovog procesora posegnuti za "aftermarket" hlađenjem. Ovo je poptuno korektna ideja,
+                        ali imajte u vidu dodatni izdatak za hlađenje kada planirate budžet. U maloj kutiji
+                        stiže sam procesor i nalepnica, a prema rečima AMD-a "press" pakovanje nije mnogo drugačije
+                        od onoga kako će izgledati "retail" varijanta.
+                    </p>
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100" style="width: 28%;">
+                            2 od 7
+                        </div>
+                    </div>
+                </div>
+
+                <div id="over" class="tab-pane fade">
+                    <h3>Overclock</h3>
+
+                    <p>
+                        Overklok sesija je bila prilično izazovna, jer smo morali u jako kratkom roku da
+                        istražimo relativno stabilan maksimum uz upotrebu ne preterano kompetentnog hlađenje.
+                        Nažalost, to je onemogućilo istraživanje krajnjih granica, ali verujemo da smo izvukli
+                        maksimum u datim okolnostima.
+                    </p>
+
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_012_s.jpg">
+                    <p>
+                        Pre svega, kako je reč o osmojezgarnom procesoru visoke overklok margine u regularnim uslovima
+                        otpadaju, pa tako nemojte očekivati neke vrtoglave vrednosti. U našem slučaju sa solidnim kulerom,
+                        koji predstavlja prosečnu "aftermarket" nadgoradnju smo ostvarili 3900 MHz pri naponu od 1.35V
+                        što je sasvim korektno. Ipak, verujemo da smo mogli da izvučemo možda još koji megaherc da smo
+                        imali više vremena, jer se množilac može povećavati u veoma finim koracima od svega 0.25x
+                        što znači da možete podešavati frekvenciju za po 25 MHz.
+                    </p>
+                    <img class="slika" style="display: block; margin-left: auto;margin-right: auto" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_1800x_oc_cpuz_005_1.png">
+                    <p>
+                        Da smo imali bolje hlađenje i više vremena, verujemo da bi maksimum bio između 4 i 4.1 GHz što opet čini
+                        da je overklok margina solidna, ali ne i impresivna. Pritom, za takve rezultate očekujte potrebu za
+                        drastično većim naponima i to u rangu od oko 1.45 V. Uostalom, uz kvalitetno hlađenje i procesor sa
+                        XFR-om čak i prosečan korisnik dobija solidnu opciju automatskog overkloka bez potrebe da ikada otvori bios.
+                    </p>
+
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100" style="width: 42%;">
+                            3 od 7
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="cine" class="tab-pane fade">
+                    <h3>Rezultati - Cinebench, FryRender, Aida</h3>
+                    <b>Test konfiguracija:</b>
+                    <p>
+                        CPU: AMD Ryzen 7 1800X<br>
+                        Matična ploča: Gigabyte AX370 Gaming 5<br>
+                        RAM: 2 x 8 GB DDR4 Corsair Vengance 2933 MHz<br>
+                        HDD: Seagate 1TB 7200 RPM<br>
+                        VGA: Sapphire Radeon RX 480 Nitro+ 8 GB<br>
+                        Napajanje: Cooler Master V1200 Platinum<br>
+                        OS: Windows 10 64 bit<br>
+                    </p>
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench1.png">
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bech3.png">
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench2.png">
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%;">
+                            4 od 7
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="enc" class="tab-pane fade">
+                    <h3>Rezultati - Enkripcija, h264 enkoding</h3>
+                    <b>Test konfiguracija:</b>
+                    <p>
+                        CPU: AMD Ryzen 7 1800X<br>
+                        Matična ploča: Gigabyte AX370 Gaming 5<br>
+                        RAM: 2 x 8 GB DDR4 Corsair Vengance 2933 MHz<br>
+                        HDD: Seagate 1TB 7200 RPM<br>
+                        VGA: Sapphire Radeon RX 480 Nitro+ 8 GB<br>
+                        Napajanje: Cooler Master V1200 Platinum<br>
+                        OS: Windows 10 64 bit<br>
+                    </p>
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench4.png">
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench5.png">
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench6.png">
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/bench7.png">
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            5 od 7
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="zak" class="tab-pane fade">
+                    <h3>Utisci u radu, zaključak</h3>
+
+                    <p>
+                        AMD se na procesorskom polju ponovo uzdigao na najbolji mogući način. Nova arhitektura je značajno
+                        bolja od prethodne u svim mogućim aspektima i konačno se može reći da AMD ravnopravno može da konkuriše
+                        Intelu. Štaviše, u pogledu sirove snage uz svoju atraktivnu cenu od oko 500 EUR-a, Ryzen 7
+                        1800X predstavlja daleko bolju ponudu od svega što konkurencija ima da ponudi u scenarijima gde se
+                        PC koristi za HPC (High Performance Computing).
+                    </p>
+                    <img class="slika" src="../images/hardware/amd%20Ryzen%207%201800x/amd_ryzen_7_1800x_015_s.jpg">
+                    <p>
+                        Ostaje da vidimo kako će se procesor ponašati u gejmingu u odnosu na konkurenta,
+                        gde će imati malo težu borbu sa četvorojezgarnim Intel procesorima za LGA1151
+                        koji rade na vrtoglavo visokim frekvencijama, a to je upravo ono što igre "vole".
+                        Ipak, verujemo da neće biti prevelikih razlika, ali to je priča za neki od narednih
+                        tekstova kada ćemo se fokusirati upravo na Ryzen 7 u gejming situaciji.
+                    </p>
+                    <p>
+                        Za kraj ostaje da kažemo da je reč ofantastičnom proizvodu koji najavljuje povratak AMD-a
+                        na velika vrata i vrednosti kojima je kompanija oduvek težila, a to je neprevaziđen odnos cene i
+                        perforamansi. Na ovom polju, AMD Ryzen 7 1800X dugo neće imati rivala.
+                    </p>
+
+
+
+                    <b>Prednosti:</b>
+                    <p>
+                        - Multithreading performanse<br>
+                        - Odnos cene, potrošnje i performansi<br>
+                        - Najveći napredak za AMD u skorije vreme<br>
+                    </p>
+                    <b>Nedostaci:</b>
+                    <p>
+                        - Bez bitnih nedostataka
+                    </p>
+                    <b>Cena: oko 580 evra</b><br><br>
+                    <b>Procesor na test ustupio <a href="http://www.amd.com/en">AMD.</a></b>
+                    <div class="progress broj_stranice">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                            7 od 7
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="panel-footer futer_invis"></div>
+        </div>
+
+        <div class="col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+                <h4>Slične teme:</h4>
+                <li>
+                    <a href="#">
+                        <div class="thumbnail thumbnail_sve">
+                            <img class="slika" src="../images/dodatak/01c2222dfadbe04116b843b87980a67f.jpg">
+                            <div class="caption">
+                                <h4>Test: Intel Core i7 6900K - Broadwell-E</h4>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="clearfix"></div>
+
+    <div class="panel-footer futer_real">
+        <ul class="list-inline">
+            <li><b>Pratite nas:</b></li>
+            <li><a href="https://www.facebook.com/PC-Plus-1512221969039636/?ref=aymt_homepage_panel"><img class="ikonica" src="../images/facebook.png"> Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCh4aNBdHN5fQu9wS_BETTYQ?view_as=subscriber?&ab_channel=PCPlus%2B" ><img class="ikonica" src="../images/Youtube.png"> Youtube kanal </a></li>
+            <li><a href="https://twitter.com/pc_plus_plus?lang=sr"><img class="ikonica" src="../images/twitter.png"> Twitter </a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/moja%20skripta.js"></script>
+</body>
+</html>
